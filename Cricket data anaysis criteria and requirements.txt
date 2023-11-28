@@ -1,0 +1,66 @@
+1.I have to make a team which will going to make a avg score of 180 
+2.and able to defend 150 runs
+ 
+
+> I have to select players with some parameters and criteria for openers
+//Parameters       //Description     //Criteria 
+
+Batting Average     Average runs scored in an Innings    >30
+Strike rate         No of runs Scored per 100 balls      >140
+Innings Batted      Total Innings batted                 >3
+Boundry%            % of runs score in boundries        >50%
+Batting Positions     Order in which the batter played    <4
+
+
+
+> I have to select players with some parameters and criteria for MiddleOrders
+//Parameters       //Description     //Criteria 
+
+Batting Average     Average runs scored in an Innings    >40
+Strike rate         No of runs Scored per 100 balls      >125
+Innings Batted      Total Innings batted                 >3
+Average balls faced Average balls faced by the batter in an innings    >20
+Batting Positions     Order in which the batter played    >3
+
+
+> I have to select players with some parameters and criteria for lowerorder
+//Parameters       //Description     //Criteria 
+
+Batting Average     Average runs scored in an Innings    >25
+Strike rate         No of runs Scored per 100 balls      >130
+Innings Batted      Total Innings batted                 >3
+Average balls faced Average balls faced by the batter in an innings    >12
+Batting Positions     Order in which the batter played    >4
+Innings Bowled      Total innings bowled by the bowler   >1
+
+
+> I have to select players with some parameters and criteria for ALL ROUNDERS/lowerorder
+//Parameters       //Description     //Criteria 
+
+Batting Average     Average runs scored in an Innings    >15
+Strike rate         No of runs Scored per 100 balls      >140
+Innings Batted      Total Innings batted                 >2
+Batting Positions     Order in which the batter played    >4
+Innings Bowled      Total innings bowled by the bowler   >2
+Bowling economy      Avg runs allowed per over           <7
+Bowling strike rate  Avg no. of balls required to take a wickets   <20
+
+> I have to select players with some parameters and criteria specialist fast bowlers
+//Parameters       //Description     //Criteria 
+
+Innings bowled    total innings bowled   >4
+Bowling Economy    Avg runs allowed per over   <7
+Bowling strike rate   avg no. of balls required to take a wicket <16
+Bowling style    Bowling style of the players                   =%fast%
+bowling avg     no.of runs allowed per wicket              <20
+dot balls       % of dot balls bowled                    >40
+
+######################################################################
+dim_players.csv file has been added by its manualy whwre we have to add some images of players
+dim_players_no_image.csv file has been created by pandas and python notebook to which does not have a images
+
+
+
+
+
+
